@@ -23,17 +23,16 @@ import com.cytexal.glitchedmanager.parse.SavefileString;
 public class StringListPanel extends CheckBoxList {
 
 	private SavefileList list;
+	private SavefileString listEncoded;
 
 	public StringListPanel(String title, SavefileString listEncoded) throws IOException {
-		this(title, (SavefileList) new SavefileReader(listEncoded).read());
-	}
-
-	public StringListPanel(String title, SavefileList list) {
 		super(title);
-		this.list = list;
+		this.listEncoded = listEncoded;
+		this.list = (SavefileList) new SavefileReader(listEncoded).read();
 		load();
+		
 	}
-
+	
 	@Override
 	public void load() {
 		clear();
@@ -69,6 +68,12 @@ public class StringListPanel extends CheckBoxList {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	@Override
+	public void save() {
+		super.save();	
+		listEncoded.set(list.getEncoded());
 	}
 
 	@Override
