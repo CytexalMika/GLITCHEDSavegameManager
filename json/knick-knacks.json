@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "String",
+    "Name": "Slumbering Stone"
+  },
+  {
+    "Type": "String",
+    "Name": "Status Report"
+  },
+  {
+    "Type": "String",
+    "Name": "Eileen's Letter"
+  },
+  {
+    "Type": "DOUBLE",
+    "Name": "Abandoned Tree Key"
+  },
+  {
+    "Type": "STRING",
+    "Name": "Slick Rick's Delivery"
+  },
+  {
+    "Type": "DOUBLE",
+    "Name": "Nazling Ooze"
+  }
+]

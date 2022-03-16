@@ -1,0 +1,11 @@
+# Eclipse
+bin/
+.settings/
+
+# Maven
+target/
+
+
+# GLITCHED Savegame Manager
+saves/
+

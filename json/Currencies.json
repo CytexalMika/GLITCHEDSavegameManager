@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "DOUBLE",
+    "Name": "Bits"
+  },
+  {
+    "Type": "DOUBLE",
+    "Name": "FROG Coins"
+  },
+  {
+    "Type": "DOUBLE",
+    "Name": "Undulating Wisdom"
+  },
+  {
+    "Type": "DOUBLE",
+    "Name": "Star Chunks"
+  },
+  {
+    "Type": "DOUBLE",
+    "Name": "Unused Item"
+  }
+]
