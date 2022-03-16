@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>GLITCHEDSavegameManager</groupId>
   <artifactId>GLITCHEDSavegameManager</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.X-SNAPSHOT</version>
   <name>GLITCHED Savegame Manager</name>
   <description>GLITCHED Savegame Manager</description>
   <build>
