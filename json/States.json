@@ -19,7 +19,8 @@
   "alden_corrupt": {"Values": ["corrupt"]},
   "bebo_in_party": {"Values": [
     "dreambo",
-    "bluebo"
+    "bluebo",
+    "greenbo"
   ]},
   "eileen_corrupt": {"Values": ["corrupt"]},
   "gt_sartre": {"Values": ["done"]},
@@ -29,14 +30,20 @@
   "patcher": {"Values": ["done"]},
   "slickchecker": {"Values": ["done"]},
   "rm_betwixtgustlkchkalarm": {"Values": ["done"]},
-  "essence_reality": {"Values": ["reality"]},
+  "essence_reality": {"Values": [
+    "reality",
+    "illusion"
+  ]},
   "Tacessence": {"Values": ["zeal"]},
   "rm_covewood_uppermazegustlkchkalarm": {"Values": ["done"]},
   "norma_corrupt": {"Values": ["corrupt"]},
   "conradwindow": {"Values": ["open"]},
   "bugtrio": {"Values": ["done"]},
   "rm_covewood_centerpathgustlkchkalarm": {"Values": ["done"]},
-  "essence_freewill": {"Values": ["predeterminism"]},
+  "essence_freewill": {"Values": [
+    "predeterminism",
+    "freewill"
+  ]},
   "gt_betwixt": {"Values": ["done"]},
   "gushousecs": {"Values": ["done"]},
   "gartabby": {"Values": ["tacfriend"]},
@@ -57,7 +64,8 @@
   "gus_color": {"Values": ["Blue"]},
   "temp2": {"Values": [
     "state1",
-    "state0"
+    "state0",
+    "fight"
   ]},
   "temp3": {"Values": [
     "state1",
@@ -70,7 +78,8 @@
   ]},
   "temp1": {"Values": [
     "state0",
-    "friendmad"
+    "friendmad",
+    "state1"
   ]},
   "bovinachecker": {"Values": ["done"]},
   "stumpy": {"Values": ["friend"]},
@@ -107,7 +116,10 @@
     "battle",
     "state0"
   ]},
-  "wammy": {"Values": ["paid"]},
+  "wammy": {"Values": [
+    "paid",
+    "fightwin"
+  ]},
   "temp8": {"Values": ["state0"]},
   "temp9": {"Values": ["state0"]},
   "mayblinbetwixt": {"Values": ["done"]},
@@ -148,6 +160,7 @@
   "strix": {"Values": ["covewood"]},
   "georgentalk": {"Values": ["done"]},
   "zone_forgottenfields": {"Values": ["done"]},
+  "jimmyfight": {"Values": ["move"]},
   "mud": {"Values": ["on"]},
   "georgechecker": {"Values": ["done"]},
   "wommy": {"Values": ["talk4"]},
@@ -157,6 +170,7 @@
   ]},
   "harmonydoor": {"Values": ["finished"]},
   "rm_covewood_barrackgustlkchkalarm": {"Values": ["done"]},
+  "purpleparty": {"Values": ["on"]},
   "unusedfriendbe154": {"Values": ["done"]},
   "rarebeboquest": {"Values": ["donezo"]},
   "battledamage": {"Values": ["0"]},
@@ -171,12 +185,16 @@
   "lennychecker": {"Values": ["done"]},
   "oldbomedic": {"Values": ["done"]},
   "oldbofight": {"Values": ["hard"]},
-  "gus_hometown": {"Values": ["left"]},
+  "gus_hometown": {"Values": [
+    "left",
+    "silent"
+  ]},
   "gt_covewood": {"Values": ["done"]},
   "temp": {"Values": [
     "state2",
     "state0",
-    156
+    156,
+    146
   ]},
   "driftmove": {"Values": ["move3"]},
   "oldbodefender": {"Values": ["done"]},
