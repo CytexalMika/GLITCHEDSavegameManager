@@ -125,7 +125,7 @@ public class ItemQuantityPanel extends CheckBoxComponentList<JFormattedTextField
 					amountList.set(i,
 							new SavefileDouble((Double)entry.getOtherComponent().getValue()));
 				else
-					amountList.set(i, new SavefileString((String) entry.getOtherComponent().getValue()));
+					amountList.set(i, new SavefileString(entry.getOtherComponent().getValue().toString()));
 
 			}
 		} else {
