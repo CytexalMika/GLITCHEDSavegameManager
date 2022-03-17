@@ -4,14 +4,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Vector;
 
 import javax.swing.JCheckBox;
-import javax.swing.JPanel;
 
-import org.apache.commons.lang3.StringUtils;
 import org.json.JSONArray;
 import org.json.JSONTokener;
 
@@ -30,9 +26,9 @@ public class StringListPanel extends CheckBoxList {
 		this.listEncoded = listEncoded;
 		this.list = (SavefileList) new SavefileReader(listEncoded).read();
 		load();
-		
+
 	}
-	
+
 	@Override
 	public void load() {
 		clear();
@@ -40,7 +36,7 @@ public class StringListPanel extends CheckBoxList {
 			File file = getJSONFile();
 			JSONTokener t = new JSONTokener(new FileReader(file));
 			JSONArray a = new JSONArray(t);
-			Vector<JCheckBox> checkboxes = new Vector<JCheckBox>();
+			Vector<JCheckBox> checkboxes = new Vector<>();
 			for (Object o : a) {
 				String str = (String) o;
 				addCheckBox(str);
@@ -69,10 +65,10 @@ public class StringListPanel extends CheckBoxList {
 			e.printStackTrace();
 		}
 	}
-	
+
 	@Override
 	public void save() {
-		super.save();	
+		super.save();
 		listEncoded.set(list.getEncoded());
 	}
 

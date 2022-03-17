@@ -116,14 +116,6 @@ public class MainFrame extends JFrame {
 	}
 
 	public void refresh() {
-		// load files
-		/*
-		 * File[] files = savegameFolder.listFiles(new FileFilter() {
-		 * 
-		 * @Override public boolean accept(File pathname) { return
-		 * pathname.getName().startsWith("savefile_gus_v01_"); } });
-		 */
-
 		DefaultListModel<File> listModel = new DefaultListModel<File>();
 		listModel.addAll(Arrays.asList(newSavegameFolder.listFiles()));
 		newFiles.setModel(listModel);
