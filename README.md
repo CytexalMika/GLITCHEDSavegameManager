@@ -12,3 +12,6 @@ On the main Page you have the option to make copies of your savegames or write c
 
 You can also click "Open copy in Editor" to open the selected copy in the savegame editor, where you can change various things like your name, position, items and even your choices.
 When you are done editing click on File>Save and a ".edited" File will appear in the copies list, which you can write back to your save slot.
+
+## Contribution
+You can help me by sending your savegames to IchBinDerMika#1688 on Discord.
