@@ -5,6 +5,8 @@ GLITCHED Savegame Manager is a tool for managing and editing savegames for the g
 
 ## Installation
 Go to [Releases](https://github.com/CytexalMika/GLITCHEDSavegameManager/releases), download the latest version and unzip it.
+
+GLITCHED Savegame Manager requires [Java](https://www.java.com/de/).
 ## Usage
 To start GLITCHED Savegame Manager just open the .jar file.
 
